@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Columny</title>
+    <style>
+        .column-container {
+            display: flex;
+        }
+
+        .column {
+            margin-right: 20px;
+            flex: 1;
+        }
+
+        .clear {
+            clear: both;
+        }
+		
+		.column-three {
+            width: calc(33.33% - 20px); /* (100% / 3) */
+        }
+
+        .column-two {
+            width: calc(50% - 20px); /* (100% / 2) */
+        }
+
+        .column-five {
+            width: calc(20% - 80px); /* (100% / 5) */
+        }
+
+    </style>
+</head>
+<body bgcolor="#D5F2DF">
+    <div class="column-container">
+		<div class="column column-three">
+            <p>
+                Prosty, ale potężny – HTML jest standardowym językiem znaczników, służącym do tworzenia stron internetowych, co zasadniczo czyni go podstawą całego Internetu! To za jego pomocą komunikujemy się z przeglądarkami i mówimy im, jak mają uporządkować zawartość witryny w tytuły, nagłówki, akapity, obrazy, łącza, listy, formularze, tabele i inne elementy.
+            </p>
+		</div>
+		<div class="column column-three">
+            <p>
+                Zdecydowana większość odwiedzanych przez Ciebie stron internetowych została napisana i ustrukturyzowana właśnie przy użyciu elementów HTML. Statystyki mówią, że obecnie korzysta z niego 94,3% wszystkich witryn na świecie!
+            </p>
+		</div>
+		<div class="column column-three">
+            <p>
+                Wiedza o tym, co to jest HTML, jak działa i do czego służy przyda się nie tylko programistom stron internetowych. Co prawda, dla nich znajomość tego języka jest absolutną koniecznością, ale nawet w innych branżach, takich jak np. projektowanie UX/UI, marketing czy SEO, odrobina HTML zawsze może się przydać.
+            </p>
+		</div>
+    </div>
+    
+    <div class="column-container">
+		<div class="column column-two">
+            <p>
+                Warto zauważyć, że HTML nie jest typowym językiem programowania, jak np. JavaScript czy Python. Nie zawiera on w porównaniu do nich logiki programowania. Nie ma typowych instrukcji warunkowych. Nie może oceniać wyrażeń ani wykonywać żadnych obliczeń. Nie obsługuje zdarzeń ani nie wykonuje zadań. Nie można nim deklarować zmiennych i pisać funkcji. W żaden sposób nie modyfikuje też ani nie manipuluje danymi. HTML nie może pobierać danych wejściowych i generować danych wyjściowych.
+            </p>
+		</div>
+		<div class="column column-two">
+            <p>
+                Zamiast tego, jak sama nazwa wskazuje, HTML jest językiem znaczników. Jego najważniejszą funkcją jest ustalenie (oznaczanie) struktury, układu i prezentacji zawartości strony internetowej (np. jej treści, nagłówków, obrazów). W połączeniu z innymi językami, takimi jak kaskadowe arkusze stylów (CSS) i JavaScript może tworzyć atrakcyjne wizualnie i interaktywne witryny.
+            </p>
+		</div>
+    </div>
+    
+    <div class="column-container">
+		<div class="column column-five">
+            <p>
+                Tagom HTML można też przypisać atrybuty. Są one umieszczane w tagu otwierającym i przekazują więcej informacji o danym elemencie. Ich składnia wygląda następująco: nazwa=”wartość”
+            </p>
+		</div>
+		<div class="column column-five">
+            <p>
+                Np. element obrazu musi zawsze posiadać atrybut źródłowy, czyli adres URL obrazu lub ścieżkę pliku. W przeciwnym razie przeglądarka nie będzie wiedziała, jaki obraz ma wyrenderować na stronie.
+            </p>
+		</div>
+		<div class="column column-five">
+            <p>
+                Oprócz tego do grafik na stronie zawsze warto dopisywać atrybut alt (tekst alternatywny), który mówi o tym, co znajduje się na obrazie.
+            </p>
+		</div>
+		<div class="column column-five">
+            <p>
+                To na wypadek, gdyby obraz nie ładował się prawidłowo lub użytkownik miał problem ze wzrokiem.
+            </p>
+		</div>
+		<div class="column column-five">
+            <p>
+                Tak samo jest w przypadku znacznika “anchor”, którego używa się tworzenia hiperlinków — musi on zawierać atrybut “href” , którego wartość określa miejsce docelowe linku. Bez tego przeglądarka nie będzie wiedziała, gdzie ma odesłać użytkownika po kliknięciu.
+            </p>
+		</div>
+    </div>
+</body>
+</html>

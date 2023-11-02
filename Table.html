@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tabela</title>
+        <style>
+            table {
+                width: 50%; /* Ширина таблицы до середины экрана */
+            }
+
+            table td {
+                padding: 5px;  /* устанавливает одинаковый отступ по всем четырем сторонам элемента */
+            }
+
+            input[type="text"] {
+                width: 100%;
+            }
+
+            button {
+                font-size: 16px;
+                padding: 10px 20px; /* устанавливает верхний и нижний отступ равным 10 пикселям, а правый и левый отступ равным 20 пикселям */
+                width: 20%; /* Кнопка занимает половину ширины ячейки */
+            }
+        </style>
+    </head>
+    <body bgcolor="#F3D7D7">
+        <table>
+            <tr>
+                <td><label for="name">Imię</label></td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="surname">Nazwisko</label></td>
+                <td><input type="text" id="surname"></td>
+				<form>
+            </tr>
+			<tr>
+				<td><label for="name">Ulica</label></td>
+				<td><input type="text" id="street"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Miejscowść</label></td>
+                <td><input type="text" id="terrain"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Numer domu</label></td>
+                <td><input type="text" id="house"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Numer mieszkania</label></td>
+                <td><input type="text" id="apartment"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Data urodzenia</label></td>
+                <td><input type="text" id="birthday"></td>
+            <tr>
+			</tr>
+            <td><label for="name">Województwo</label></td>
+                <td><input type="text" id="voiv"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Numer telefonu</label></td>
+                <td><input type="text" id="telephone"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Adres email</label></td>
+                <td><input type="text" id="email"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Płeć</label></td>
+                <td><input type="text" id="gender"></td>
+            <tr>
+			</tr>
+				<td><label for="name">Prawo jazdy</label></td>
+                <td><input type="text" id="license"></td>
+            <tr>
+                <td colspan="2">
+                    <button>Zapisz</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
